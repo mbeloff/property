@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Niconne&display=swap");
+html {
+  scroll-behavior: smooth; }
+
+.anchor::before {
+  display: block;
+  content: " ";
+  margin-top: -72px;
+  height: 72px;
+  visibility: hidden;
+  pointer-events: none; }
+
+.bg-light {
+  background-color: rgba(0, 0, 0, 0.041) !important; }
+
+.hero-section {
+  margin-top: -56px;
+  height: 100vh;
+  background-color: darkgray;
+  background-image: url("https://images.unsplash.com/photo-1475855581690-80accde3ae2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80");
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%; }
+
+h2 {
+  color: #b9a17e; }
+
+.navbar-brand span, .hero-h1 span {
+  font-family: 'Niconne';
+  font-size: 1.5em; }
+
+.navbar .nav-link,
+.navbar .navbar-brand,
+.navbar .fab {
+  color: #b9a17e; }
+
+.hero-h1 {
+  color: #b9a17e; }
+
+.hero-text {
+  top: -10%;
+  width: 100%;
+  max-width: 80vw;
+  z-index: 1;
+  left: 20%;
+  margin-left: -25%; }
+
+.parallax--box {
+  position: absolute;
+  max-width: 30em; }
+
+.charity-section {
+  padding: 1em 0; }
+
+.carousel-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 25em;
+  max-height: 80vh; }
+
+.avatar {
+  height: 200px;
+  width: 200px;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out; }
+  .avatar:hover {
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03); }
+
+.contact-ad {
+  background-image: url("https://images.unsplash.com/photo-1533625655932-73abd53515b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  height: 15em;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.contact-section .fas {
+  color: #b9a17e; }
+
+.form-header {
+  margin-top: -3.13rem;
+  margin-bottom: 3rem;
+  padding: 1rem;
+  background: #2b2b2b;
+  color: white; }
+/*# sourceMappingURL=styles.css.map */
