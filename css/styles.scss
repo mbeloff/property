@@ -117,3 +117,10 @@ h2 {
   color: white;
 }
 
+.g-recaptcha {
+  @media screen only and (max-width: 576px){
+    transform: scale(0.75);
+  }
+  
+}
+

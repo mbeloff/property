@@ -93,4 +93,8 @@ h2 {
   padding: 1rem;
   background: #2b2b2b;
   color: white; }
+
+.g-recaptcha {
+  -webkit-transform: scale(0.75);
+          transform: scale(0.75); }
 /*# sourceMappingURL=styles.css.map */
