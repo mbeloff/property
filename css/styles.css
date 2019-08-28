@@ -105,4 +105,7 @@ h2 {
     .g-recaptcha {
       -webkit-transform: scale(0.75);
               transform: scale(0.75); } }
+
+.reviews-section i {
+  color: #b9a17e; }
 /*# sourceMappingURL=styles.css.map */
