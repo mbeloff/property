@@ -9,6 +9,28 @@ html {
   scroll-behavior: smooth;
 }
 
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.05rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.1rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.15rem;
+  }
+}
+
 .anchor::before { 
   display: block; 
   content: " "; 
@@ -24,7 +46,6 @@ html {
 
 .navbar .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(185, 161, 126)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-
 }
 
 .bg-light {
@@ -55,6 +76,10 @@ h2 {
 .navbar .navbar-brand, 
 .navbar .fab {
   color: #b9a17e;
+}
+
+.navbar .nav-link.active {
+  color: rgb(68, 150, 153);
 }
 
 .hero-h1 {
@@ -130,3 +155,10 @@ h2 {
   color: #b9a17e;
 }
 
+blockquote p:before {
+  content: "\f10d";
+  font-family: 'Fontawesome';
+  float: left;
+  margin-right: 10px;
+  color: #b9a17e;
+}

@@ -2,6 +2,21 @@
 html {
   scroll-behavior: smooth; }
 
+html {
+  font-size: 1rem; }
+
+@media (min-width: 576px) {
+  html {
+    font-size: 1.05rem; } }
+
+@media (min-width: 768px) {
+  html {
+    font-size: 1.1rem; } }
+
+@media (min-width: 992px) {
+  html {
+    font-size: 1.15rem; } }
+
 .anchor::before {
   display: block;
   content: " ";
@@ -40,6 +55,9 @@ h2 {
 .navbar .navbar-brand,
 .navbar .fab {
   color: #b9a17e; }
+
+.navbar .nav-link.active {
+  color: #449699; }
 
 .hero-h1 {
   color: #b9a17e; }
@@ -107,5 +125,12 @@ h2 {
               transform: scale(0.75); } }
 
 .reviews-section i {
+  color: #b9a17e; }
+
+blockquote p:before {
+  content: "\f10d";
+  font-family: 'Fontawesome';
+  float: left;
+  margin-right: 10px;
   color: #b9a17e; }
 /*# sourceMappingURL=styles.css.map */
