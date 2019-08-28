@@ -23,3 +23,6 @@ function parallax() {
   $('.parallax--box').css('top', 
   (wScroll*0.02)+'em')
 }
+
+
+
