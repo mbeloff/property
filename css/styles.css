@@ -95,6 +95,14 @@ h2 {
   color: white; }
 
 .g-recaptcha {
-  -webkit-transform: scale(0.75);
-          transform: scale(0.75); }
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s; }
+  @media only screen and (max-width: 576px) {
+    .g-recaptcha {
+      -webkit-transform: scale(0.75);
+              transform: scale(0.75); } }
 /*# sourceMappingURL=styles.css.map */
