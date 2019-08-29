@@ -54,9 +54,9 @@ html {
 
 .hero-section {
   margin-top: -56px;
-  height: 100vh;
+  height: 110vh;
   background-color: darkgray;
-  background-image: url('https://images.unsplash.com/photo-1475855581690-80accde3ae2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80');
+  background-image: url('../img/home-bg.jpg');
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
@@ -122,7 +122,7 @@ h2 {
 }
 
 .contact-ad {
-  background-image: url('https://images.unsplash.com/photo-1533625655932-73abd53515b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60');
+  background-image: url('../img/life-preserver.jpg');
   height: 15em;
   background-attachment: fixed;
   background-position: center;
