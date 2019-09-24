@@ -85,8 +85,8 @@ h2 {
   max-height: 80vh; }
 
 .avatar {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   -webkit-transition: -webkit-transform 0.5s ease-in-out;
   transition: -webkit-transform 0.5s ease-in-out;
   transition: transform 0.5s ease-in-out;
