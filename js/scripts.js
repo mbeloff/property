@@ -24,4 +24,19 @@ function parallax() {
   (wScroll*0.02)+'em');
 }
 
+$('[data-fancybox="images"]').fancybox({
+  margin : [44,0,22,0],
+  thumbs : {
+    autoStart : true,
+    axis      : 'x'
+  }
+})
+$('[data-fancybox="images2"]').fancybox({
+  margin : [44,0,22,0],
+  thumbs : {
+    autoStart : true,
+    axis      : 'x'
+  }
+})
+
 
