@@ -78,7 +78,7 @@ h2 {
 .carousel-img {
   -o-object-fit: cover;
      object-fit: cover;
-  height: 25em;
+  height: 15em;
   max-height: 80vh; }
 
 .avatar {
