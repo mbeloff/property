@@ -7,17 +7,14 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="description" content="We are a family business offering creative property solutions to those who are experiencing property distress or wanting to sell off-market">
 
-  <!-- js css -->
-  <script src="node_modules\mdbootstrap\js\jquery-3.4.1.min.js"></script>
-  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="https://kit.fontawesome.com/52bd978102.js"></script>
-  <script src="node_modules/mdbootstrap/js/mdb.min.js"></script>
-  <script src="node_modules\jarallax\dist\jarallax.min.js"></script>
-
-  <link rel="stylesheet" href="node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css" />
-  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="node_modules/mdbootstrap/css/mdb.min.css">
-  <link rel="stylesheet" href="css/styles.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/styles.css" rel="stylesheet">
   <!-- end js css -->
   <link rel="canonical" href="https://prideandproperty.com.au">
   <title>Pride and Property</title>
@@ -52,7 +49,7 @@
         </li>
 
       </ul>
-      <ul class="navbar-nav ml-auto nav-flex-icons">
+      <!-- <ul class="navbar-nav ml-auto nav-flex-icons">
         <li class="nav-item">
           <a class="nav-link waves-effect waves-light">
             <i class="fab fa-facebook"></i>
@@ -63,8 +60,7 @@
             <i class="fab fa-google-plus-g"></i>
           </a>
         </li>
-
-      </ul>
+      </ul> -->
     </div>
   </nav>
   <!--/.Navbar -->
@@ -72,10 +68,10 @@
   <section class="hero-section jarallax">
     <div class="rgba-black-strong w-100 h-100 d-flex flex-center flex-column position-relative">
 
-      <div class="hero-text position-relative wow fadeIn slower" data-wow-delay="0.5s">
+      <div class="hero-text position-relative wow fadeIn slower" data-wow-delay="0.2s">
         <div class="parallax--box">
-          <img src="img/logo.png" alt="" class="img-fluid">
-          <p class="text-white mt-2">Creative solutions for those in property distress</p>
+          <h2 class="hero-h1 font-weight-bold" href="#">Pride <span style="vertical-align:middle;">&</span> Property</h2>
+          <p class="text-white mt-2 wow fadeInUp" data-wow-delay="0.4s">Creative solutions for those in property distress</p>
         </div>
       </div>
     </div>
@@ -84,44 +80,47 @@
   <!-- Section About -->
   <section class="mission-section position-relative bg-white">
     <div class="container">
-      <section id="about" class="anchor section pb-5 mb-5">
+      <section id="about" class="anchor section pb-5">
         <!--Secion heading-->
-        <h2 class="text-center text-uppercase font-weight-bold mt-4 mb-5 py-5 wow fadeIn" data-wow-delay="0.2s">About us</h2>
-        <div class="row wow fadeIn" data-wow-delay="0.2s">
+        <h2 class="text-left text-uppercase mt-4 py-5">About us</h2>
+        <div class="row">
           <!-- Place for photo -->
-          <div class="col-lg-4 mb-2">
-            <div class="view"> <img src="img/meeting.jpg" class="img-fluid z-depth-1" alt="">
-              <div class="mask  rgba-brown-strong smooth-scroll flex-center">
-                <a class="btn btn-outline-white btn-lgs wow fadeInUp waves-effect waves-light" data-wow-delay="0.2s" href="#team" data-offset="100"> <span>GET MORE INFORMATION</span> </a>
-              </div>
-            </div>
-          </div>
+
           <!-- Text content -->
-          <div class="col-lg-7 offset-lg-1">
+          <div class="col-lg-8">
             <h1 class="lead mb-3">We are a family business offering creative property solutions to those who are experiencing property distress or wanting to sell off-market</h1>
             <p>
               We pride ourselves on dealing with hardship in a compassionate and outcome focussed manner, creating winning solutions that are beneficial for both parties. We do pride without the prejudice and people before the profit so that you can move on with your life. Call us a for a quick, obligation free chat.
             </p>
           </div>
+          <div class="col-lg-4 mb-2">
+            <div class="view"> <img src="https://res.cloudinary.com/dg5ybbkbh/image/upload/c_fill,h_300/v1570662542/2/1_4.jpg" class="img-fluid z-depth-1" alt="">
+              <div class="mask rgba-brown-strong smooth-scroll flex-center">
+                <a class="btn btn-outline-white btn-lgs waves-effect waves-light" href="#contact" data-offset=""> <span>CONTACT US</span> </a>
+              </div>
+            </div>
+          </div>
         </div>
+        <hr>
       </section>
     </div>
+
   </section>
   <!-- /.Section About -->
 
-  <div class="container">
+  <!-- <div class="container">
     <div class="col-12 contact-ad p-0 my-5 m-0 mx-auto">
       <div class="flex-center rgba-indigo-light mask p-2">
         <div class="white-text smooth-scroll">
-          <h3 class="text-center mb-5 wow fadeIn">Having property trouble? ... We're here to help</h3>
+          <h3 class="text-center mb-5">Having property trouble? ... We're here to help</h3>
           <div class="text-center">
-            <a href="#contact" class="btn btn-outline-white wow fadeIn waves-effect waves-light" data-offset="100" data-wow-delay="0.2s">Contact
+            <a href="#contact" class="btn btn-outline-white waves-effect waves-light" data-offset="100">Contact
               us</a>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
 
 
@@ -130,27 +129,25 @@
   <section id="team" class="anchor section team-section my-5">
     <div class="container">
       <!-- Section title -->
-      <h2 class="text-center text-uppercase font-weight-bold mt-4 mb-5 py-5 wow fadeIn" data-wow-delay="0.2s">Meet the team</h2>
+      <h2 class="text-left text-uppercase mt-4 py-5">Meet the team</h2>
       <!-- First row -->
       <div class="container text-center mb-5">
-
-
-        <div class="row">
-          <div class="col-lg-3 col-md-6 my-auto">
+        <div class="row text-center">
+          <div class="col-lg-2 col-md-3 my-auto text-center">
             <img src="img\v.jpg" alt="" class="avatar mx-auto rounded-circle shadow">
           </div>
-          <div class="col-md-6 col-lg-9 text-left">
-            <h4 class="my-4 text-center text-md-left">Vivienne</h4>
+          <div class="col-md-9 col-lg-10 text-left">
+            <h4 class="my-4 text-center  text-md-left">Vivienne</h4>
             <p>Studying Real Estate, International Business and Communication Vivienne brings bountiful knowledge in endless fields to Pride and Property that will be directly transferred to you, in helping you out of your situation. Vivienne grew up in a family business and understands both the complexity and importance of maintaining a solid family unit under all circumstances, good and bad. The soft touch of the company, Vivienne prides herself on her empathetic touch and unmatched listening skills.</p>
           </div>
 
         </div>
         <hr>
         <div class="row">
-          <div class="col-lg-3 col-md-6 my-auto">
+          <div class="col-12 col-lg-2 col-md-3 my-auto">
             <img src="img\l_r.jpg" alt="" class="avatar mx-auto rounded-circle shadow">
           </div>
-          <div class="col-md-6 col-lg-9 text-left">
+          <div class="col-md-9 col-lg-10 text-left">
             <h4 class="my-4 text-center text-md-left">Liam</h4>
             <p>Born and raised in Brisbane, but currently residing in Sydney, Liam has been working in the property and tourism industry for over 15 years. He has worked as Chief Operating Officer for tourism companies across Canada and the United States, a sales manager and operations manager for Australian and New Zealand tourism companies, a portfolio specialist and corporate social responsibility officer in Australia, and a cleaner in the UK. Aside from his work with P&P Liam believes deeply in giving back to community, lecturing part time in music, running drumming workshops with kids in hospital, a palliative care choir and variety shows with his students for residents at the local aged care facility. He loves being with P&P as it is a chance to be creative with solutions to strike a win-win situation and a privilege to walk with people in what can be a stressful and vulnerable time.</p>
           </div>
@@ -159,10 +156,10 @@
         <hr>
 
         <div class="row mb-4">
-          <div class="col-lg-3 col-md-6 my-auto">
+          <div class="col-12 col-lg-2 col-md-3 my-auto">
             <img src="img\r.jpg" alt="" class="avatar mx-auto rounded-circle shadow">
           </div>
-          <div class="col-md-6 col-lg-9 text-left">
+          <div class="col-md-9 col-lg-10 text-left">
             <h4 class="my-4 text-center text-md-left">Ron</h4>
             <p>Ron is our reliable and all 'round <em>top bloke</em> builder. With over 35 years of building experience and project management, Ron brings expertise, feasibility, knowledge, and great know how to Pride and Property, so you can rest easy knowing that you're in good hands.</p>
           </div>
@@ -172,10 +169,10 @@
     </div>
 
     <div class="container mt-5">
-      <p class="text-justify dark-grey-text w-responsive mx-auto my-2 wow fadeIn"><span class="lead black-text">We are not real estate agents or buyers agents</span> and therefore don't charge the usual agents fees. Agents will often move people to a quick auction rather than find a price that is realistic and will help both parties. </p>
-      <p class="text-justify dark-grey-text w-responsive mx-auto my-2 wow fadeIn"><span class="lead black-text">We Care</span> and are actively involved in many housing initiatives across the country. Social entrepreneurship is at the heart of what we do.</p>
-      <p class="text-justify dark-grey-text w-responsive mx-auto my-2 wow fadeIn"><span class="lead black-text">We work in your best interest</span> by figuring out what will maximize the profit of the property, whether a development, quick clean and tidy, subdivision or a joint venture. We pay what a property is worth.</p>
-      <p class="text-justify dark-grey-text w-responsive mx-auto my-2 wow fadeIn"><span class="lead black-text">We are a family</span> that has been in business together for 20+ years running successful tourism companies around the world. You aren’t dealing with a corporation though, you’re dealing with family who understands family and what that means when it comes to assets and hardship. Let our family help yours.</p>
+      <p class="text-justify dark-grey-text mx-auto my-2"><span class="lead black-text">We are not real estate agents or buyers agents</span> and therefore don't charge the usual agents fees. Agents will often move people to a quick auction rather than find a price that is realistic and will help both parties. </p>
+      <p class="text-justify dark-grey-text mx-auto my-2"><span class="lead black-text">We Care</span> and are actively involved in many housing initiatives across the country. Social entrepreneurship is at the heart of what we do.</p>
+      <p class="text-justify dark-grey-text mx-auto my-2"><span class="lead black-text">We work in your best interest</span> by figuring out what will maximize the profit of the property, whether a development, quick clean and tidy, subdivision or a joint venture. We pay what a property is worth.</p>
+      <p class="text-justify dark-grey-text mx-auto my-2"><span class="lead black-text">We are a family</span> that has been in business together for 20+ years running successful tourism companies around the world. You aren’t dealing with a corporation though, you’re dealing with family who understands family and what that means when it comes to assets and hardship. Let our family help yours.</p>
     </div>
 
 
@@ -185,7 +182,7 @@
   <section id="contact" class="anchor container contact-section pb-5 mb-5">
 
     <!--Section heading-->
-    <h2 class="text-center text-uppercase font-weight-bold mt-4 mb-5 py-5 wow fadeIn" data-wow-delay="0.2s">Contact</h2>
+    <h2 class="text-left text-uppercase mt-4 mb-5 py-5">Contact</h2>
     <!--Section sescription-->
 
     <div class="row">
@@ -202,7 +199,7 @@
               <h3 class="text-center align-center mb-0"><i class="fas fa-envelope text-white"></i> Write to us</h3>
             </div>
 
-            <p class="lead">Leave a message and we'll get back to you as soon as we can</p>
+            <p class="text-muted lead">Leave a message and we'll get back to you as soon as we can</p>
             <br>
 
             <!--Body-->
@@ -256,14 +253,14 @@
         <div class="row text-center mt-1">
           <div class="col-md-4">
             <a class=" mb-2 btn-floating waves-effect waves-light"><i class="fas fa-map-marker-alt"></i></a>
-            <p>Brisbane, QLD 4000</p>
+            <p>Newtown, NSW 2042</p>
             <p>Australia</p>
           </div>
 
           <div class="col-md-4">
             <a class="mb-2 btn-floating waves-effect waves-light"><i class="fas fa-phone"></i></a>
             <p>ph: <a href="tel:+61400634007" style="color: #b9a17e">0400 634 007</a></p>
-            <p>Mon - Fri, 9:00-18:00</p>
+            <!-- <p>Mon - Fri, 9:00-18:00</p> -->
           </div>
 
           <div class="col-md-4">
@@ -286,10 +283,10 @@
   <!-- reviews -->
   <!-- <div id="testimonials" class="anchor reviews-section container my-5">
     <hr>
-    <h2 class="text-center text-uppercase font-weight-bold mt-4 mb-5 py-5 wow fadeIn" data-wow-delay="0.2s">A word from our clients</h2>
+    <h2 class="text-center text-uppercase font-weight-bold mt-4 mb-5 py-5">A word from our clients</h2>
     <div class="row">
 
-      <div class="col-12 col-md-4 wow fadeIn fast">
+      <div class="col-12 col-md-4 fast">
 
         <blockquote class="blockquote h-100" data-wow-delay="0.0s">
           <i class="fal fa-user-circle float-left mr-2 fa-2x"></i>
@@ -299,7 +296,7 @@
         </blockquote>
 
       </div>
-      <div class="col-12 col-md-4 wow fadeIn fast" data-wow-delay="0.2s">
+      <div class="col-12 col-md-4 fast">
 
         <blockquote class="blockquote h-100">
           <i class="fal fa-user-circle float-left mr-2 fa-2x"></i>
@@ -308,7 +305,7 @@
           <footer class="blockquote-footer mb-3"><cite title="Source Title">Ascot</cite></footer>
         </blockquote>
       </div>
-      <div class="col-12 col-md-4 wow fadeIn fast" data-wow-delay="0.4s">
+      <div class="col-12 col-md-4 fast" data-wow-delay="0.4s">
 
         <blockquote class="blockquote h-100">
           <i class="fal fa-user-circle float-left mr-2 fa-2x"></i>
@@ -325,7 +322,7 @@
   <footer class="page-footer footer-tiles text-center text-md-left grey darken-4 mt-0 pt-4">
 
     <!--Footer Links-->
-    <div class="container mb-4 wow fadeIn">
+    <div class="container mb-4">
 
       <!--First row-->
       <div class="row mt-2">
@@ -350,7 +347,7 @@
           <h5 class="text-uppercase mb-4"><strong>Location</strong></h5>
 
           <!--Info-->
-          <p><i class="fas fa-home mr-3"></i> Brisbane, QLD 4000</p>
+          <p><i class="fas fa-home mr-3"></i> Newtown, NSW 2042</p>
 
         </div>
         <!--/Second column-->
@@ -366,7 +363,7 @@
           <!--Info-->
 
           <p class="mb-0"><i class="fas fa-phone mr-3"></i>Liam: <a href="tel:+61400634007" style="color: #b9a17e"> 0400 634 007</a></p>
-          <p class="text-muted"><i class="fas fa-clock mr-3"></i>Mon - Fri, 9:00-17:00</p>
+          <!-- <p class="text-muted"><i class="fas fa-clock mr-3"></i>Mon - Fri, 9:00-17:00</p> -->
           <p><i class="fas fa-envelope mr-3"></i>liam@prideandproperty.com</p>
           <!-- <p><i class="fas fa-phone mr-3"></i> </p> -->
           <!-- <p><i class="fas fa-print mr-3"></i> </p> -->
@@ -390,7 +387,15 @@
 
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
   <script src="js/scripts.js"></script>
 </body>
 

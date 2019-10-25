@@ -1,34 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Niconne&display=swap');
 
-
-@import "../node_modules/bootstrap/scss/_functions.scss";
-@import "../node_modules/bootstrap/scss/_variables.scss";
-@import "../node_modules/bootstrap/scss/mixins/_breakpoints.scss";
-
 html {
   scroll-behavior: smooth;
-}
-
-html {
-  font-size: .8rem;
-}
-
-@include media-breakpoint-up(sm) {
-  html {
-    font-size: .9rem;
-  }
-}
-
-@include media-breakpoint-up(md) {
-  html {
-    font-size: .95rem;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  html {
-    font-size: 1rem;
-  }
 }
 
 .anchor::before { 
@@ -57,7 +30,7 @@ html {
   height: 110vh;
   min-height: 750px;
   background-color: darkgray;
-  background-image: url('../img/home-bg.jpg');
+  background-image: url('https://res.cloudinary.com/dg5ybbkbh/image/upload/v1570662542/2/1_4.jpg');
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
@@ -110,8 +83,8 @@ h2 {
 }
 
 .avatar {
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   transition: transform 0.5s ease-in-out;
   &:hover {
     transform: scale(1.03)
@@ -128,7 +101,7 @@ h2 {
 }
 
 .contact-section .fas {
-  color: #b9a17e;
+  color: #b9a17e !important;
 }
 
 .form-header {
